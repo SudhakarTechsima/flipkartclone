@@ -1,0 +1,202 @@
+@media (max-width:1100px) {
+    .icons .become span {
+        display: none;
+    }
+
+    .icons .cart span {
+        display: none;
+    }
+
+    .login-icon .icons {
+
+        justify-content: space-evenly;
+    }
+
+    .category-section .products .product:nth-child(odd) {
+        display: none;
+    }
+
+    .smartphone-section .smart {
+        flex-wrap: wrap;
+    }
+
+    .smartphone-section .smart .best_deal {
+        width: 98%;
+
+    }
+
+    .smart .best_deal .deal-inner,
+    .top-deal .best_deal .deal-inner {
+        flex-wrap: wrap;
+    }
+
+    .smartphone-section .smart .acer_poster {
+        width: 100%;
+    }
+
+    .smartphone-section .smart .acer_poster img {
+        object-fit: cover;
+    }
+
+    .offer-section .offer-outer {
+        gap: 10px 0px;
+    }
+
+    .offer-outer .offer {
+        width: 33%;
+
+    }
+
+    .shop-section .shop-outer {
+
+        flex-wrap: wrap;
+    }
+
+    .shop-outer .festive-home {
+        min-height: 600px;
+        width: 49%;
+        padding: 5px;
+
+    }
+
+    .shop-section .shop-outer {
+        gap: 10px;
+
+    }
+
+    .shop-outer .fashion-need {
+        width: 98%;
+
+    }
+
+    .featured-brands .featured-brands-product {
+
+        gap: 10px 10px;
+        padding: 10px 0px;
+
+    }
+
+    .featured-brands-product .feature-image {
+        width: 49%;
+    }
+
+    .mega-outer .mega-inner {
+
+        width: 49%;
+    }
+
+    .mega-outer {
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .footer .upper-footer {
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .upper-footer .upper-footer-content {
+        width: 25%;
+        padding: 20px 0px;
+    }
+    .bottom-footer {
+    flex-wrap: wrap;
+}
+}
+
+@media (max-width:930px) {
+    .product-banner-outer .product-item {
+        width: 49%;
+    }
+
+    .offer-outer .offer {
+        width: 49%;
+
+    }
+}
+
+@media (max-width:768px) {
+    .header {
+        justify-content: space-evenly;
+    }
+
+    .header .search {
+        display: none;
+    }
+
+    .category-section .products .product:nth-child(4) {
+        display: none;
+    }
+
+    .shop-outer .festive-home {
+        width: 98%;
+    }
+
+    .featured-brands .featured-brands-product {
+        gap: 5px 5px;
+        padding: 5px 0px;
+    }
+
+    .featured-brands-product .feature-image {
+        width: 98%;
+    }
+
+    .mega-outer {
+
+
+        gap: 5px 5px;
+    }
+
+    .mega-outer .mega-inner {
+
+        width: 98%;
+    }
+
+    .upper-footer .upper-footer-content {
+        width: 50%;
+        padding: 10px 0px;
+        min-height: 100px;
+    }
+}
+
+@media (max-width:576px) {
+    .category-section .products .product:nth-child(2) {
+        display: none;
+    }
+
+    .hero-section .slider {
+        height: 250px;
+
+    }
+
+    .hero-section .slider img {
+        object-fit: cover;
+    }
+
+    .smartphone-section .smart .acer_poster {
+        height: 300px;
+    }
+
+    .product-banner-outer .product-item {
+        width: 98%;
+    }
+
+    .offer-outer .offer {
+        width: 98%;
+
+    }
+
+    .shop-outer .fashion-need {
+        height: 250px;
+
+    }
+
+    .upper-footer .upper-footer-content {
+        width: 98%;
+    }
+}
+@media (max-width:400px) {
+    .icon-card{
+        display: none;
+    }
+}
